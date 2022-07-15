@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Bitvavo.net.Models
 {
-    public class CallResult
+    public class TickerPrice
     {
-
+        public string Market { get; set; }
+        public decimal Price { get; set; }
     }
 }

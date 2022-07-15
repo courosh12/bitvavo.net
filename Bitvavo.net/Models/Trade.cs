@@ -6,10 +6,10 @@ namespace Bitvavo.net.Models
 {
     public class Trade
     {
-        public string id { get; set; }
-        public long timestamp { get; set; }
-        public string amount { get; set; }
-        public string price { get; set; }
-        public string side { get; set; }
+        public string Id { get; set; }
+        public long Timestamp { get; set; }
+        public string Amount { get; set; }
+        public string Price { get; set; }
+        public string Side { get; set; }
     }
 }
